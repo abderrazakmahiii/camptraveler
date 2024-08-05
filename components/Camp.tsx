@@ -62,13 +62,13 @@ const Camp = () => {
     <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite
-          backgroundImage="/camptraveler/bg-bg-img-1"
+          backgroundImage="/camptraveler/img-1.png"
           title="Putuk Truno Camp"
           subtitle="Prigen, Pasuruan"
           peopleJoined="50+ Joined"
         />
         <CampSite
-          backgroundImage="/camptraveler/bg-bg-img-2"
+          backgroundImage="/camptraveler/img-2.png"
           title="Mountain View Camp"
           subtitle="Somewhere in the Wilderness"
           peopleJoined="50+ Joined"
@@ -86,7 +86,7 @@ const Camp = () => {
             adventure
           </p>
           <Image
-            src="/quote.svg"
+            src="/camptraveler/quote.svg"
             alt="camp-2"
             width={186}
             height={219}
