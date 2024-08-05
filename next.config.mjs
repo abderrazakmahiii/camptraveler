@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: "export",
+  basePath: "/camptraveler", // This should match your GitHub repo name
+  assetPrefix: "/camptraveler", // Ensures assets use the correct URL
+};
 
-export default nextConfig;
+module.exports = nextConfig;
