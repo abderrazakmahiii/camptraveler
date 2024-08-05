@@ -31,12 +31,12 @@ const Navbar = () => {
         <Button
           type="button"
           title="Login"
-          icon="/user.svg"
+          icon="/camptraveler/user.svg"
           variant="btn_dark_green"
         />
       </div>
       <Image
-        src="menu.svg"
+        src="/camptraveler/menu.svg"
         alt="menu"
         width={32}
         height={32}
