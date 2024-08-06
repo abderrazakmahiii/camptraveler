@@ -8,7 +8,12 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center max-w-screen-xl mx-auto px-4 py-5">
       <Link href="/">
-        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+        <Image
+          src="/public/hilink-logo.svg"
+          alt="logo"
+          width={74}
+          height={29}
+        />
       </Link>
       <ul className="hidden h-full gap-12 lg:flex items-center">
         {NAV_LINKS.map((link) => (
