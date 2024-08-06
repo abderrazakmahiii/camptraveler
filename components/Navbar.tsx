@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center max-w-screen-xl mx-auto px-4 py-5">
       <Link href="/">
         <Image
-          src="/public/hilink-logo.svg"
+          src="/camptraveler/hilink-logo.svg"
           alt="logo"
           width={74}
           height={29}
